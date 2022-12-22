@@ -2,7 +2,7 @@ package com.raisetech.mybatisdemo;
 
 import java.util.List;
 
-public class NameServiceImpl implements NameService{
+public class NameServiceImpl implements NameService {
     private final NameMapper nameMapper;
 
     public NameServiceImpl(NameMapper nameMapper) {
